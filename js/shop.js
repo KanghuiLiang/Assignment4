@@ -45,6 +45,6 @@ productsElement.innerHTML = productsText;
 
 document.getElementById("greeting").innerHTML = greeting;
 document.getElementById("customer-name").innerHTML = "Chaky";
-document.getElementById("price").innerHTML = "$" + discountPrice + "<span class='badge' style='background-color:red'>25% off";
+document.getElementById("price").innerHTML = "$" + discountPrice + "<span class='badge alert-danger'>25% off";
 
 
