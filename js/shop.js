@@ -5,7 +5,7 @@ if (hourNow > 18) {
     greeting= "Good evening";
    } else if (hourNow > 12) { 
    	greeting = "Good afternoon";
-   }else if (hourNow > 0){ 
+   }else if (hourNow > 5){ 
    	greeting = "Good morning";
    }else {
    greeting = "Don't stay up late";
@@ -45,6 +45,6 @@ productsElement.innerHTML = productsText;
 
 document.getElementById("greeting").innerHTML = greeting;
 document.getElementById("customer-name").innerHTML = "Chaky";
-document.getElementById("price").innerHTML = "$" + discountPrice + "<span class='badge'>25% off";
+document.getElementById("price").innerHTML = "$" + discountPrice + "<span class='badge' style='background-color:red'>25% off";
 
 
